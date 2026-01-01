@@ -1,5 +1,6 @@
 .container {
     padding: var(--spacing-xl) var(--spacing-md);
+    padding-top: 8rem;
     max-width: 1000px;
     margin: 0 auto;
 }
