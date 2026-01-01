@@ -1,5 +1,7 @@
 .container {
     padding: var(--spacing-xl) var(--spacing-md);
+    padding-top: 8rem;
+    /* Ensure clearance for fixed header */
 }
 
 .header {
@@ -10,7 +12,8 @@
 .title {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    /* Increased from md */
     color: var(--text-primary);
 }
 
@@ -20,6 +23,8 @@
     gap: var(--spacing-md);
     flex-wrap: wrap;
     margin-bottom: var(--spacing-xl);
+    margin-top: var(--spacing-lg);
+    /* Added explicit top space */
 }
 
 .filterButton {
